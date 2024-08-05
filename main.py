@@ -1,7 +1,8 @@
-# import aiohttp
+# confirmed to be working on unix
+# todo - Make a Windows module
+
 from aiohttp import ClientSession
-from asyncio import gather, new_event_loop, set_event_loop, set_event_loop_policy, WindowsSelectorEventLoopPolicy, run
-# import aiohttp, asyncio
+from asyncio import gather, new_event_loop, set_event_loop
 
 def process_data(input, output=[]):
 
